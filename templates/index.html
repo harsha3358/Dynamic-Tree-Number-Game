@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🧠 Guess The Number AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🎮 Think a Number (1-10)</h1>
+    <p>Don't tell me 🤫 I will guess it!</p>
+
+    <button onclick="startGame()">Start Game 🚀</button>
+
+    <div id="gameArea" style="display:none;">
+        <h2 id="question"></h2>
+        <button onclick="sendAnswer('yes')">Yes 👍</button>
+        <button onclick="sendAnswer('no')">No 👎</button>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
